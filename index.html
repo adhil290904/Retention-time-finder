@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retention Time Finder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>EMPLOYEE RETENTION TIME FINDER</h1>
+
+    <form onsubmit="calculateRetention(); return false;">
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" required>
+
+        <label for="fromDate">From Date:</label>
+        <input type="date" id="fromDate" required>
+
+        <label for="toDate">To Date:</label>
+        <input type="date" id="toDate" required>
+
+        <button type="submit">Calculate Retention Time</button>
+        <h6>Note:Employee 1,2 and 3 are working in a company as an intern from 18/11/2023 to 01/12/2023</h6>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

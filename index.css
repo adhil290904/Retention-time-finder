@@ -1,0 +1,78 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #001f3f; /* Dark Blue */
+    color: #2c3e50; /* Black */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center; /* Center-align content */
+}
+
+h1 {
+    color: #c0c0c0; /* Silver Shade */
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h6 {
+    font-weight: normal;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(47, 77, 232);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button {
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2980b9, #2471a3);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 16px;
+}
